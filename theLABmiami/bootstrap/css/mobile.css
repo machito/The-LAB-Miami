@@ -1,0 +1,84 @@
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#branding {padding-top: 50px !important;}
+	.brand {margin-bottom: 10px !important;}
+	.social {margin-top: 0 !important;}
+	body {overflow-x:hidden;}
+	#description {display: none;}
+	#description h1 {width:300px !important;line-height: 1.3em;}
+	#space h3, #community h3 {display: none!important;}
+	#community h3 {left:20% !important; padding-top:20px !important;}
+	.featurette {padding: 0 20px!important;}
+	.artist h2.featurette-heading {}
+	.featurette-image.pull-right {max-width: 90% !important;}
+	.featurette-divider {margin: 40px 0;}
+	.featurette-image {margin-top: 0px !important;}
+	#logo {display: none;}
+	#section-nav {top: 15px !important;}
+	#mantras {display: none !important;}
+}
+/* Retina Display */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#logo {left:30%!important;}
+	#description{top:400px!important;}
+	#branding{height:500px!important;padding-top:50px!important;}
+	.featurette-image {width:90%!important;margin-top: 0px !important;}
+	.rslides {}
+	.medium {width:190px!important;}
+	#LABrats {height:320px !important;}
+	#section-nav{margin-top:15px!important;}
+	#address {font-size:.8em!important;}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+	#LABrats {height: 450px;}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+	.container {width: 1200px;}
+	#branding {height: 750px!important;}
+	#logo {left:41%!important;}
+	#mantra {margin: 220px 0!important;}
+	#description {top:685px!important;}
+	.carousel img, .carousel .item {height:800px!important;}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
